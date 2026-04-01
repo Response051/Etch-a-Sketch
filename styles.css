@@ -11,4 +11,9 @@
   /* height: calc(100% / 16); */
   padding: 20px;
   margin: 1px;
+  transition: background-color 0.3;
+}
+
+.div1:hover{
+    background-color: aqua;
 }
