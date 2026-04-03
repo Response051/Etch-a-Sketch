@@ -32,7 +32,8 @@ function gridSize(e) {
     for (let index = 1; index < totalCells; index++) {
       const SquaredDiv1 = document.createElement("div");
       SquaredDiv1.classList.add("div1");
-      // called the GetRandomColor values to the Dom using MouseEnter nad leave via addEvent
+      // called the GetRandomColor values to the Dom using MouseEnter
+      //  and mouseleave via addEvent
       SquaredDiv1.addEventListener("mouseenter", () => {
         SquaredDiv1.style.backgroundColor = getRandomColor();
       });
@@ -46,23 +47,4 @@ function gridSize(e) {
 
 button.addEventListener("click", gridSize);
 
-function randomColor() {
-  let colors = ["red", "blue", "green", "yellow", "brown", "Orange"];
-  let color = Math.floor(Math.random() * 10);
-  console.log(color);
-  if (color === 1) {
-    console.log(colors[1]);
-  } else if (color === 2) {
-    console.log(colors[2]);
-  } else if (color === 3) {
-    console.log(colors[3]);
-  } else if (color === 4) {
-    console.log(colors[4]);
-  } else if (color === 5) {
-    console.log(colors[5]);
-  } else {
-    console.log(colors[6]);
-  }
-}
-
-randomColor();
+// the function to leave a pixelated color wasn't done
