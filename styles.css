@@ -1,19 +1,17 @@
+* {
+  box-sizing: border-box;
+}
 #container {
   display: flex;
-  flex-wrap: wrap; 
-  width: 100%;
-  border: 1px solid black;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .div1 {
   border: 2px solid rgb(0, 19, 128);
   width: calc(100% / 16);
-  /* height: calc(100% / 16); */
   padding: 20px;
   margin: 1px;
   transition: background-color 0.3;
-}
-
-.div1:hover{
-    background-color: aqua;
 }
