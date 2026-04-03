@@ -15,3 +15,12 @@
   margin: 1px;
   transition: background-color 0.3;
 }
+.buttonsH1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.buttons {
+  margin-bottom: 50px;
+}
