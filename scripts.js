@@ -47,4 +47,4 @@ function gridSize(e) {
 
 button.addEventListener("click", gridSize);
 
-// the function to leave a pixelated color wasn't done
+// the function to leave a pixelated color wasn't done, will effect it later
